@@ -1,0 +1,76 @@
+.section_class_title {
+	width: 100%;
+	height: 40px;
+	box-shadow: 0 -1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+	border: 1px solid #c0c0c0;
+	border-radius: 21px;
+	cursor: pointer;
+}
+
+.section_class_title span {
+	margin-left: 10px;
+	font-size: 25px;
+	font-family: '微软雅黑';
+	line-height: 40px;
+	float: left;
+}
+
+.section_class_title img {
+	width: 40px;
+	height: 40px;
+	float: right;
+	line-height: 30px;
+}
+
+.section_class {
+	width: 98%;
+	margin: 0 atuo;
+	margin: 10px 1% 10px 1%;
+	overflow: hidden;
+}
+
+.section_class1 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 10px 0px 20px 20px;
+	box-shadow: 0 -1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+}
+
+.section_class1 img{
+	width: 300px;
+	height: 300px;
+	position:absolute;
+ 	z-index:999;
+}
+
+.section_class1_div1 {
+	width: 90%;
+	height: 40px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: '微软雅黑';
+	text-align: center;
+}
+
+.space_div {
+	width: 100%;
+	height: 10px;
+	margin: 0 atuo;
+}
+
+.test_div{
+	width: 98%;
+	height:30px;
+	margin: 0 atuo;
+	margin: 10px 1% 10px 1%;
+	box-shadow: 0 -1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+	border: 1px solid #c0c0c0;
+	overflow: hidden;
+}
+
+.insert_here{
+	width: 100%;
+	box-shadow: 0 -1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+	overflow: hidden;
+}

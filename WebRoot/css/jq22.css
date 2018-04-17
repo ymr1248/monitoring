@@ -1,0 +1,375 @@
+﻿body {
+	height: 100%;
+}
+
+#login header, #register header {
+	position: relative;
+}
+
+#login #owl-login, #register #owl-login {
+	width: 211px;
+	height: 108px;
+	background-image: url("../images/login.png");
+	position: absolute;
+	top: -100px;
+	left: 50%;
+	margin-left: -111px;
+}
+
+#login #owl-login .hand, #register #owl-login .hand {
+	width: 34px;
+	height: 34px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	background-color: #472d20;
+	-webkit-transform: scaleY(0.6);
+	-moz-transform: scaleY(0.6);
+	-o-transform: scaleY(0.6);
+	-ms-transform: scaleY(0.6);
+	transform: scaleY(0.6);
+	-webkit-transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-o-transition: 0.3s ease-out;
+	-ms-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+	position: absolute;
+	left: 14px;
+	bottom: -8px;
+}
+
+#login #owl-login .hand.hand-r, #register #owl-login .hand.hand-r {
+	left: 170px;
+}
+
+#login #owl-login.password .hand, #register #owl-login.password .hand {
+	-webkit-transform: translateX(42px) translateY(-15px) scale(0.7);
+	-moz-transform: translateX(42px) translateY(-15px) scale(0.7);
+	-o-transform: translateX(42px) translateY(-15px) scale(0.7);
+	-ms-transform: translateX(42px) translateY(-15px) scale(0.7);
+	transform: translateX(42px) translateY(-15px) scale(0.7);
+}
+
+#login #owl-login.password .hand.hand-r, #register #owl-login.password .hand.hand-r
+	{
+	-webkit-transform: translateX(-42px) translateY(-15px) scale(0.7);
+	-moz-transform: translateX(-42px) translateY(-15px) scale(0.7);
+	-o-transform: translateX(-42px) translateY(-15px) scale(0.7);
+	-ms-transform: translateX(-42px) translateY(-15px) scale(0.7);
+	transform: translateX(-42px) translateY(-15px) scale(0.7);
+}
+
+#login #owl-login .arms, #register #owl-login .arms {
+	top: 58px;
+	position: absolute;
+	width: 100%;
+	height: 41px;
+	overflow: hidden;
+}
+
+#login #owl-login .arms .arm, #register #owl-login .arms .arm {
+	width: 40px;
+	height: 65px;
+	position: absolute;
+	left: 20px;
+	top: 40px;
+	background-image: url("../images/owl-login-arm.png");
+	-webkit-transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-o-transition: 0.3s ease-out;
+	-ms-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+#login #owl-login .arms .arm.arm-r, #register #owl-login .arms .arm.arm-r
+	{
+	-webkit-transform: rotate(20deg) scaleX(-1);
+	-moz-transform: rotate(20deg) scaleX(-1);
+	-o-transform: rotate(20deg) scaleX(-1);
+	-ms-transform: rotate(20deg) scaleX(-1);
+	transform: rotate(20deg) scaleX(-1);
+	left: 158px;
+}
+
+#login #owl-login.password .arms .arm, #register #owl-login.password .arms .arm
+	{
+	-webkit-transform: translateY(-40px) translateX(40px);
+	-moz-transform: translateY(-40px) translateX(40px);
+	-o-transform: translateY(-40px) translateX(40px);
+	-ms-transform: translateY(-40px) translateX(40px);
+	transform: translateY(-40px) translateX(40px);
+}
+
+#login #owl-login.password .arms .arm.arm-r, #register #owl-login.password .arms .arm.arm-r
+	{
+	-webkit-transform: translateY(-40px) translateX(-40px) scaleX(-1);
+	-moz-transform: translateY(-40px) translateX(-40px) scaleX(-1);
+	-o-transform: translateY(-40px) translateX(-40px) scaleX(-1);
+	-ms-transform: translateY(-40px) translateX(-40px) scaleX(-1);
+	transform: translateY(-40px) translateX(-40px) scaleX(-1);
+}
+
+#login .loginform, #register .loginform {
+	margin-top: 200px;
+	position: relative;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	position: relative;
+	max-width: 400px;
+	padding: 0;
+}
+
+#login .loginform.center, #register .loginform.center {
+	text-align: center;
+}
+
+#login .loginform.center p, #register .loginform.center p {
+	color: #777;
+	margin-bottom: 0;
+}
+
+#login .loginform h3, #register .loginform h3 {
+	margin: 0;
+	text-align: center;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+#login .loginform .logo, #register .loginform .logo {
+	text-align: center;
+}
+
+#login .loginform .controls, #register .loginform .controls {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#login .loginform input, #register .loginform input {
+	color: #444;
+}
+
+#login .loginform .pad, #register .loginform .pad {
+	overflow: hidden;
+	padding: 30px;
+}
+
+#login .loginform .form-actions, #register .loginform .form-actions {
+	border-top: 1px solid #e4e4e4;
+	background-color: #f7f7f7;
+	padding: 15px 30px;
+	text-align: right;
+}
+
+.search1 {
+	margin:20px 0 0 100px;
+	display: inline-block;
+	float: left;
+}
+
+.search2 {
+	margin:20px 0 0 0;
+	display: inline-block;
+	float: left;
+}
+
+.search3 {
+	margin:20px 0 0 50px;
+	display: inline-block;
+	float: left;
+}
+
+
+/*手风琴*/
+.left1{
+	color:#0000ff;
+	
+}
+.right-good{
+	color:#008040;
+}
+.right-bad{
+	color:#800040;
+	
+}
+.result-good{
+	text-align:center;
+	color:#008000;
+}
+.result-bad{
+	text-align:center;
+	color:#800000;
+}
+.demo {
+	
+	padding: 2em 0;
+	background: #fff;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+#accordion:before {
+	content: "";
+	width: 1px;
+	height: 80%;
+	background: #550527;
+	position: absolute;
+	top: 20px;
+	left: 24px;
+	bottom: 20px;
+}
+
+#accordion .panel {
+	border: none;
+	border-radius: 0;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+	margin: 0 0 12px 50px;
+	position: relative;
+}
+
+#accordion .panel:before {
+	content: "";
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(to bottom, #688e26 0%, #ff816a 100%);
+	position: absolute;
+	top: 0;
+	left: -2px;
+}
+
+#accordion .panel-heading {
+	padding: 0;
+	background: #fff;
+	position: relative;
+}
+
+#accordion .panel-heading:before {
+	content: "";
+	width: 15px;
+	height: 15px;
+	border-radius: 50px;
+	background: #fff;
+	border: 1px solid #550527;
+	position: absolute;
+	top: 50%;
+	left: -48px;
+	transform: translateY(-50%);
+}
+
+#accordion .panel-title a {
+	display: block;
+	padding: 15px 55px 15px 30px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #550527;
+	border: none;
+	margin: 0;
+	position: relative;
+}
+
+#accordion .panel-title a:before, #accordion .panel-title a.collapsed:before
+	{
+	content: "\f068";
+	font-family: fontawesome;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 50%;
+	font-size: 15px;
+	font-weight: normal;
+	color: #688e26;
+	text-align: center;
+	border: 1px solid #688e26;
+	position: absolute;
+	top: 50%;
+	right: 25px;
+	transform: translateY(-50%);
+	transition: all 0.5s ease 0s;
+}
+
+#accordion .panel-title a.collapsed:before {
+	content: "\f067";
+}
+
+#accordion .panel-body {
+	padding: 0 30px 15px;
+	border: none;
+	font-size: 14px;
+	color: #305275;
+	line-height: 28px;
+}
+/*防止撑破*/
+.chengpo{
+	table-layout:fixed; /*为了将表格布局固定住，就可以有效地防止表格被撑开*/
+	word-wrap:break-word;/*控制换行的，也就是强制执行换行，这个在文本内容较多的情况下需要使用到，特别是重复的内容出现，不执行换行的话，表格就被撑开了*/
+	word-break:break-all;/*可以解决IE的框架被英文（非亚洲语言文本行）撑开的问题，但是不会强制换行，只显示表格宽度里的内容*/
+}
+
+/*渐变效果*/
+.head-bb {
+	font-size: 64px;
+	margin-top: 100px;
+	text-align: center;
+	-webkit-background-clip: text; /*按文字裁剪*/
+	-webkit-text-fill-color: transparent; /*文字的颜色使用背景色*/
+	background-color: #19385c; /*设置一个背景色*/
+	background-image: -webkit-linear-gradient(-50deg, rgba(0, 0, 0, 0.6) 30%,
+		#aff0ff 50%, rgba(0, 0, 0, 0.6) 70%); /*设置渐变的背景，按对角线渐变*/
+	background-blend-mode: hard-light; /*设置背景为混合模式下的强光模式*/
+	background-size: 200%;
+	-webkit-animation: shine 8s infinite; /*给背景添加动画改变位置*/
+}
+
+@-webkit-keyframes shine {
+	from {background-position: 100%;
+}
+
+to {
+	background-position: 0;
+}
+
+}
+#login .login {
+	height: 200px;
+	margin-top: 0px;
+}
+
+.bgcolor {
+	background: url(../images/bghh.gif) 0 0 repeat #ececec; /*背景图片*/
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover; /*把背景图像扩展至足够大*/
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	/*background: -webkit-linear-gradient(top, rgba(255,0,0,0), rgba(22,0,2,1)); /* Safari 5.1 - 6.0 */
+	/*background: -o-linear-gradient(bottom, rgba(255,0,0,0), rgba(22,0,2,1)); /* Opera 11.1 - 12.0 */
+	/*background: -moz-linear-gradient(bottom, rgba(255,0,0,0), rgba(22,2,0,1)); /* Firefox 3.6 - 15 */
+	/*background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(22,0,2,1)); /* 标准的语法（必须放在最后） */
+}
+
+#login .loginform {
+	margin-top: 0;
+	top: 108px;
+}
+
+#login .loginform label {
+	position: absolute;
+	top: 13px;
+	left: 13px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+#login .loginform input {
+	padding: 9px 6px 9px 40px;
+	height: auto;
+}
